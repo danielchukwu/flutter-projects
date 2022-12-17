@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:food_recipe_app/screens/home/home_screen.dart';
+import 'package:food_recipe_app/screens/profile/profile.dart';
 
 class NavItem {
   final int id;
@@ -32,6 +33,6 @@ class NavItems extends ChangeNotifier {
     NavItem(id: 2, icon: "assets/icons/list.svg", destination: HomeScreen()),
     NavItem(id: 3, icon: "assets/icons/camera.svg", destination: HomeScreen()),
     NavItem(id: 4, icon: "assets/icons/chef_nav.svg", destination: HomeScreen()),
-    NavItem(id: 5, icon: "assets/icons/user.svg", destination: HomeScreen()),
+    NavItem(id: 5, icon: "assets/icons/user.svg", destination: ProfileScreen()),
   ];
 }
