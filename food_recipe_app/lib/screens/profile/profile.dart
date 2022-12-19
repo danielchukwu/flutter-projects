@@ -19,6 +19,7 @@ class ProfileScreen extends StatelessWidget {
   AppBar buildAppBar() {
     return AppBar(
       backgroundColor: KPrimaryColor,
+      leading: SizedBox(),
       title: Text('Profile'),
       centerTitle: true,
       actions: <Widget>[
